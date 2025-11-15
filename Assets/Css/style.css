@@ -71,6 +71,7 @@ main {
                 }
             }
             .image {
+                max-width: 482px;
                 img {
                     width: 129px;
                     border: 1px solid #DEDCDB80
