@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap Library -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Css File -->
+    <link rel="stylesheet" href="./Assets/Css/style.css">
+    <title>Digital Agency | Landing Page</title>
+</head>
+<body>
+    <!-- Start Header -->
+    <header class="position-relative overflow-hidden">
+        <!-- NavBar Section -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <h1 class="d-lg-none"><a class="navbar-brand font-size-main fw-bold outline-0 font-color" href="#">Digital Agency</a></h1>
+                <h1 class="d-none d-lg-block "><a class="navbar-brand fs-5 fw-bold outline-0 font-color text-uppercase" href="#">Digital Agency</a></h1>
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                    <ul class="navbar-nav gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link font-color" aria-current="page" href="#">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-color" href="#about">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-color" href="#testimonials">testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-color" href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Shadow Section -->
+        <div class="ellipse rounded-circle position-absolute top-0 start-0 translate-middle z-n1 btn"></div>
+        <!-- Hero Section -->
+        <div class="hero d-flex flex-column flex-lg-row justify-content-between align-items-center font-color">
+            <div class="hero-content text-center text-lg-start">
+                <h1 class="fw-bold">Building digital products, brands & experience</h1>
+                <p class="p-styling font-size-main font-color pt-4 mb-0 pb-4 text-capitalize">Digital Agency is your online team mangement tool that easy and prompt</p>
+                <a href="#contact" class="btn btn-primary border-0 px-4 py-2 mt-3">CONTACT US</a>
+            </div>
+            <img class="pt-5 pt-lg-0" src="./Assets/Imgs/hero.png" alt="Two people discussing an issue">
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Main Content -->
+    <main class="position-relative overflow-hidden">
+        <!-- Companies -->
+        <section class="companies main-padding d-flex flex-column align-items-center text-center">
+            <p class="p-styling font-color fs-6 fw-light">Trusted by 4,000+ companies</p>
+            <div class="company bg-main rounded-3 d-flex justify-content-between gap-5 p-4">
+                <img src="./Assets/Imgs/spotify.png" alt="spotify company">
+                <img src="./Assets/Imgs/slack.png" alt="slack company">
+                <img src="./Assets/Imgs/dropbox.png" alt="dropbox company">
+                <img src="./Assets/Imgs/zoom.png" alt="zoom company">
+            </div>
+        </section>
+        <!-- Branding -->
+        <section class="branding-custome main-padding text-center text-lg-start d-flex flex-column-reverse gap-5 flex-lg-row justify-content-between align-items-center">
+            <img class="mw-100" src="./Assets/Imgs/branding.png"
+                alt="A man and a woman walking together while carrying a giant pencil, symbolizing teamwork and collaboration in creativity or writing">
+            <div class="content">
+                <h2 class="h2-title font-color fw-bold">Branding & Design system</h2>
+                <p class="p-styling font-color fs-6 pt-4">Commonly used in the graphic, print & publishing industris for previewing visual
+                    layout and mockups
+                </p>
+                <img class="arrow" src="./Assets/Imgs/Arrow.svg" alt="Arrow icon">
+            </div>
+        </section>
+        <!-- Shadow Between The Sections -->
+        <section class="ellipse middle rounded-circle position-absolute start-100 z-n1 btn"></section>
+        <!-- Customs -->
+        <section class="branding-custome main-padding text-center text-lg-start d-flex flex-column-reverse gap-5 justify-content-between align-items-center flex-lg-row-reverse">
+            <img class="mw-100" src="./Assets/Imgs/custom.png" alt="">
+            <div class="content">
+                <h2 class="h2-title font-color fw-bold">Custome & Plugin Development</h2>
+                <p class="p-styling font-color fs-6 pt-4">Commonly used in the graphic, print & publishing industris for previewing visual
+                    layout and mockups</p>
+                <img class="arrow" src="./Assets/Imgs/Arrow.svg" alt="Arrow icon">
+            </div>
+        </section>
+        <!-- Testimonials -->
+        <section id="testimonials" class="testimonials main-padding pb-5">
+            <!-- Testimonials Header -->
+            <h2 class="p-styling font-color fs-6 fw-light text-center mb-0 pb-4 text-uppercase">Testimonials</h2>
+            <p class="h2-title font-color text-capitalize fw-bold text-center mx-auto">Read What Other have to Say</p>
+            <!-- Testimonials Carousel -->
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <!-- Buttons -->
+                <div class="carousel-indicators align-items-center gap-3">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="rounded-circle opacity-100 d-lg-none"
+                        aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class=" opacity-100 rounded-circle"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3" class="active opacity-100 rounded-circle" aria-current="true"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4" class="opacity-100 rounded-circle"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5" class="opacity-100 rounded-circle d-lg-none"></button>
+                </div>
+                <!-- Carousel Cards -->
+                <div class="carousel-inner border-0">
+                    <div class="carousel-item d-lg-none">
+                        <div class="image p-4 bg-main bg-main d-flex flex-column align-items-center justify-content-center rounded-4">
+                            <img src="./Assets/Imgs/testi-1.png" class="d-block rounded-circle py-2 px-2" alt="image for someone who gave their opinion of an experiment">
+                            <h3 class="font-size-main pb-3">Mark Smith</h3>
+                            <p class="text-capitalize pb-2 px-2 mb-0 fw-light text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi,
+                                in malesuada felis
+                                malesuada
+                                vel.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card d-flex flex-row justify-content-center gap-3 border-0">
+                            <div class="image p-4 d-none bg-main bg-main d-lg-flex flex-column align-items-center justify-content-center rounded-4">
+                                <img src="./Assets/Imgs/testi-1.png" class="d-block rounded-circle pt-2 px-2" alt="image for someone who gave their opinion of an experiment">
+                                <h3 class="font-size-main pb-3">Mark Smith</h3>
+                                <p class="text-capitalize pb-2 px-2 mb-0 fw-light text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi,
+                                    in malesuada felis
+                                    malesuada
+                                    vel.</p>
+                            </div>
+                            <div class="image p-4 d-none bg-main d-lg-flex flex-column align-items-center justify-content-center rounded-4">
+                                <img src="./Assets/Imgs/testi-3.png" class="d-block rounded-circle pt-2 px-2" alt="image for someone who gave their opinion of an experiment">
+                                <h3 class="font-size-main pb-3">Andrew Rathore</h3>
+                                <p class="text-capitalize pb-2 px-2 mb-0 fw-light text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi,
+                                    in malesuada felis malesuada
+                                    vel.</p>
+                            </div>
+                            <div class="image p-4 bg-main d-flex flex-column align-items-center justify-content-center rounded-4">
+                                <img src="./Assets/Imgs/testi-2.png" class="d-block rounded-circle pt-2 px-2" alt="image for someone who gave their opinion of an experiment">
+                                <h3 class="font-size-main pb-3">Vera Duncan</h3>
+                                <p class="text-capitalize pb-2 px-2 mb-0 fw-light text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi,
+                                    in malesuada felis malesuada
+                                    vel.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="card d-flex flex-row justify-content-center gap-3 border-0">
+                            <div class="image p-4 bg-main d-flex flex-column align-items-center justify-content-center rounded-4">
+                                <img src="./Assets/Imgs/testi-3.png" class="d-block rounded-circle pt-2 px-2" alt="image for someone who gave their opinion of an experiment">
+                                <h3 class="font-size-main pb-3">Andrew Rathore</h3>
+                                <p class="text-capitalize pb-2 px-2 mb-0 fw-light text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi,
+                                    in malesuada felis malesuada
+                                    vel.</p>
+                            </div>
+                            <div class="image p-4 d-none bg-main d-lg-flex flex-column align-items-center justify-content-center rounded-4">
+                                <img src="./Assets/Imgs/testi-2.png" class="d-block rounded-circle pt-2 px-2" alt="image for someone who gave their opinion of an experiment">
+                                <h3 class="font-size-main pb-3">Vera Duncan</h3>
+                                <p class="text-capitalize pb-2 px-2 mb-0 fw-light text-center fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi,
+                                    in malesuada felis malesuada
+                                    vel.</p>
+                            </div>
+                            <div class="image p-4 d-none bg-main d-lg-flex flex-column align-items-center justify-content-center rounded-4">
+                                <img src="./Assets/Imgs/testi-1.png" class="d-block rounded-circle pt-2 px-2" alt="image for someone who gave their opinion of an experiment">
+                                <h3 class="font-size-main pb-3">Mark Smith</h3>
+                                <p class="text-capitalize pb-2 px-2 mb-0 fw-light text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi,
+                                    in malesuada felis malesuada
+                                    vel.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card d-flex flex-row justify-content-center gap-3 border-0">
+                            <div class="image p-4 d-none bg-main d-lg-flex flex-column align-items-center justify-content-center rounded-4">
+                                <img src="./Assets/Imgs/testi-2.png" class="d-block rounded-circle pt-2 px-2" alt="image for someone who gave their opinion of an experiment">
+                                <h3 class="font-size-main pb-3">Vera Duncan</h3>
+                                <p class="text-capitalize pb-2 px-2 mb-0 fw-light text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi,
+                                    in malesuada felis malesuada
+                                    vel.</p>
+                            </div>
+                            <div class="image p-4 bg-main d-flex flex-column align-items-center justify-content-center rounded-4">
+                                <img src="./Assets/Imgs/testi-1.png" class="d-block rounded-circle pt-2 px-2" alt="image for someone who gave their opinion of an experiment">
+                                <h3 class="font-size-main pb-3">Mark Smith</h3>
+                                <p class="text-capitalize pb-2 px-2 mb-0 fw-light text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi,
+                                    in malesuada felis malesuada
+                                    vel.</p>
+                            </div>
+                            <div class="image p-4 d-none bg-main d-lg-flex flex-column align-items-center justify-content-center rounded-4">
+                                <img src="./Assets/Imgs/testi-3.png" class="d-block rounded-circle pt-2 px-2" alt="image for someone who gave their opinion of an experiment">
+                                <h3 class="font-size-main pb-3">Andrew Rathore</h3>
+                                <p class="text-capitalize pb-2 px-2 mb-0 fw-light text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi,
+                                    in malesuada felis
+                                    malesuada
+                                    vel.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item d-lg-none">
+                        <div class="image p-4 bg-main d-flex flex-column align-items-center justify-content-center rounded-4">
+                            <img src="./Assets/Imgs/testi-3.png" class="d-block rounded-circle" alt="image for someone who gave their opinion of an experiment">
+                            <h3 class="font-size-main pb-3">Andrew Rathore</h3>
+                            <p class="text-capitalize pb-2 px-2 mb-0 fw-light text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi,
+                                in malesuada felis
+                                malesuada
+                                vel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="main-padding mb-5">
+            <div class="contact bg-main rounded-4 d-flex justify-content-center justify-content-md-between align-items-center">
+                <img class="d-none d-md-block" src="./Assets/Imgs/contact.png" alt="a women in front of computer replies to messages">
+                <div class="text-center text-md-start">
+                    <h2 class="h2-title font-color fw-bold">Be a part of the next big thing</h2>
+                    <p class="p-styling font-size-main font-color pt-3 mb-0 pb-4">We work with Brans, Startups, to SMEs. Colaborate for more impact and growt
+                    </p>
+                    <a href="#contact" class="btn btn-primary border-0 px-4 py-2">CONTACT US</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- End Main Content -->
+    <!-- Footer -->
+    <footer id="about" class="bg-main main-padding mt-5">
+        <div class="content d-flex flex-column flex-md-row justify-content-between gap-5 pb-4">
+            <div class="text-center text-md-start pb-4">
+                <h2 class="fw-bold p-styling font-size-main font-color pb-4 mb-0">Digital Agency</h2>
+                <p class="p-styling font-size-main font-color fs-6 pt-3 text-capitalize mx-auto mx-md-0">Building digital products, brands & experience</p>
+            </div>
+            <div class="text-center text-md-start pb-4">
+                <h2 class="fw-bold p-styling font-size-main font-color pb-3 mb-0">Resources</h2>
+                <ul class="list-unstyled">
+                    <li class="pb-4 pt-3"><a class="link-underline link-underline-opacity-0 p-styling font-size-main font-color fs-6" href="#">Guides</a></li>
+                    <li class=" pb-4"><a class="link-underline link-underline-opacity-0 p-styling font-size-main font-color fs-6" href="#">Blog</a></li>
+                    <li class=" pb-4"><a class="link-underline link-underline-opacity-0 p-styling font-size-main font-color fs-6" href="#">Cuistomer Stories</a></li>
+                    <li><a class="link-underline link-underline-opacity-0 p-styling font-size-main font-color fs-6" href="#">Glossery</a></li>
+                </ul>
+            </div>
+            <div class="text-center text-md-start pb-4">
+                <h2 class="fw-bold p-styling font-size-main font-color pb-3 mb-0">Company</h2>
+                <ul class="list-unstyled">
+                    <li class="pb-4 pt-3"><a class="link-underline link-underline-opacity-0 p-styling font-size-main font-color fs-6" href="#">About Us</a></li>
+                    <li class=" pb-4"><a class="link-underline link-underline-opacity-0 p-styling font-size-main font-color fs-6" href="#">Careers</a></li>
+                    <li class=" pb-4"><a class="link-underline link-underline-opacity-0 p-styling font-size-main font-color fs-6" href="#">Partners</a></li>
+                    <li><a class="link-underline link-underline-opacity-0 p-styling font-size-main font-color fs-6" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="text-center text-md-start">
+                <h2 class="fw-bold p-styling font-size-main font-color pb-3 mb-0">Social Media</h2>
+                <ul class="list-unstyled">
+                    <li class="pb-4 pt-3"><a class="link-underline link-underline-opacity-0 p-styling font-size-main font-color fs-6" href="#">LinkedIn</a></li>
+                    <li class=" pb-4"><a class="link-underline link-underline-opacity-0 p-styling font-size-main font-color fs-6" href="#">Facebook</a></li>
+                    <li class=" pb-4"><a class="link-underline link-underline-opacity-0 p-styling font-size-main font-color fs-6" href="#">Instagram</a></li>
+                    <li><a class="link-underline link-underline-opacity-0 p-styling font-size-main font-color fs-6" href="#">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Copy Right -->
+        <div class="text-center pb-3 pt-5"> &copy; Matheus. Todos os direitos reservados</div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Script Link For Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+</html>

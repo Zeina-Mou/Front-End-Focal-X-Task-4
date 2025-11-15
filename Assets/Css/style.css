@@ -1,0 +1,183 @@
+body {
+    font-family: "Inter", sans-serif;;
+}
+.p-styling {
+    line-height: 27.5px;
+}
+.h2-title {
+    font-size: 48px;
+}
+.bg-main {
+    background-color: #F6F6F6;
+}
+.btn {
+    background-color: #8EADD5;
+}
+.font-color {
+    color: #272D38;
+}
+.font-size-main {
+    font-size: 18px;
+}
+.main-padding {
+    padding: 100px 188px 0;
+}
+header {
+    .navbar {
+        padding: 46px 188px 0;
+    }
+    .hero {
+        padding: 97px 188px 0 188px;
+        .hero-content {
+            max-width: 540px;
+            h1 {
+                font-size: 64px;
+            }
+            p {
+                max-width: 525px;
+            }
+        }
+    }
+}
+main {
+    .companies {
+        p {
+            color: #667085;
+        }
+    }
+    .branding-custome {
+        p {
+            max-width: 393px;
+            padding-bottom: 45px;
+        }
+    }
+    .testimonials {
+        p {
+            max-width: 434px;
+        }
+        .carousel {
+            .carousel-indicators {
+                bottom: -80px;
+            }
+            .carousel-indicators [data-bs-target] {
+                width: 8px;
+                height: 8px;
+                border: 2px solid #8EADD5;
+                &.active {
+                    width: 20px;
+                    height: 20px;
+                    border: none;
+                    background-color: #8EADD5;
+                }
+            }
+            .image {
+                img {
+                    width: 129px;
+                    border: 1px solid #DEDCDB80
+                }
+                h3 {
+                    line-height: 27.5px;
+                }
+                p {
+                    font-size: 14px;
+                    line-height: 130%;
+                }
+            }
+        }
+    }
+    .contact {
+        padding: 0 75px 0 20px;
+        h2 {
+            max-width: 361px;
+        }
+        p {
+            max-width: 360px;
+        }
+    }
+}
+footer {
+    p {
+        width: 189px;
+    }
+}
+.ellipse {
+    width: 550px;
+    height: 550px;
+    filter: blur(306px)
+}
+/* Responsive Section */
+@media screen and (max-width: 992px) {
+    .main-padding {
+        padding: 100px 16px 0;
+        }
+    .ellipse {
+        width: 449px;
+        height: 449px;
+    }
+    .font-size-main {
+        font-size: 14px;
+    }
+    header {
+        .navbar {
+            padding: 48px 24px 0px;
+        }
+        .hero {
+            padding: 95px 25px 0 34px;
+            .hero-content {
+                h1 {
+                    font-size: 40px;
+                }
+                p {
+                    font-size: 16px;
+                    padding: 24px 0;
+                }
+            }
+            img {
+                max-width: 358px;
+                height: 358px;
+            }
+        }
+    }
+    main {
+        .h2-title {
+            font-size: 32px;
+        }
+        .companies {
+            .company {
+                padding-left: 16px !important;
+                padding-right: 16px !important;
+                img:nth-child(1) {
+                    width: 70px;
+                }
+                img:nth-child(2) {
+                    width: 60px;
+                }
+                img:nth-child(3) {
+                    width: 80px;
+                }
+                img:nth-child(4) {
+                    width: 49px;
+                }
+            }
+        }
+        .branding-custome {
+            .arrow {
+                transform: rotate(90deg);
+            }
+        }
+        .contact {
+            padding: 56px 35px;
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    main {
+        .companies {
+            .company {
+                padding-left: 8px !important;
+                padding-right: 8px !important;
+                gap: 10px !important;
+            }
+        }
+    }
+}
